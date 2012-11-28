@@ -7,8 +7,6 @@
  */
 if( !defined( 'MEDIAWIKI' ) )
 	die( -1 );
-require_once('Var_Dump.php');
-Var_Dump::displayInit(array('display_mode' => 'HTML4_Table'));
 /**
  * Inherit main code from SkinTemplate, set the CSS and template filter.
  * @ingroup Skins
