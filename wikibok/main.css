@@ -1,0 +1,47 @@
+body {
+	margin : 0px;
+	font-size : 9pt;
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+textarea {
+	width : 97%;
+}
+
+#result {
+	position : absolute;
+	top : 32px;
+}
+#wikibok-tooltip {
+	position  : absolute;
+	min-width : 150px;
+	white-space: nowrap;
+	background-color : white;
+	z-index: 999;
+}
+#wikibok-tooltip div div {
+	height : 32px;
+	color : black;
+	border-top   : 1px solid #FFAA00;
+	border-left  : 1px solid #FFAA00;
+	border-right : 1px solid #CC9900;
+	border-bottom: 1px solid #CC9900;
+}
+#wikibok-tooltip div li{
+	height : 100%;
+	width  : 100%;
+	padding:0px;
+	list-style: square none inside
+}
+#wikibok-loading {
+	position:absolute;
+	top  : 10px;
+	left : 10px;
+	background-repeat: no-repeat; 
+	background-image : url("loadinfo.net.gif");
+	width : 48px;
+	height : 48px;
+	z-index: 1000;
+}
+.printfooter {
+	display: none;
+}

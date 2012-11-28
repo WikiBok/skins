@@ -1,0 +1,24 @@
+#result {
+	position : absolute;
+	top : 32px;
+}
+#wikibok-tooltip {
+	display : none;
+}
+.printfooter {
+	position:absolute;
+	bottom:-5em;
+	right:0px;
+}
+#wikibok-search,
+#wikibok-edit {
+	display:none;
+}
+@media print {
+	@page {
+		margin: 10%
+	}
+	blockquote,pre {
+		page-break-inside: avoid
+	}
+}
